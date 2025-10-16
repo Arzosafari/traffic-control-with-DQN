@@ -1,0 +1,3 @@
+this project is a dynamic traffic control by reinforcment algorithm with DQN library and sumo simulator .the logs and checkpoints are placed in project you can continue training and see results by plot at end of the every 2 checkpoints that end.
+after each episode the behavior of the agent is improving according to the signals that the reward function send to agent. for running the project dont forget to install sumo simulators and other libraries that imported in the project.
+and for running if you want to continue training you must run from main.py and for testing just ( the last checkpoint automaticlly inserted) need to run test.py .
