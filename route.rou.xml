@@ -1,0 +1,11 @@
+<routes>
+    <vType id="car" accel="1.0" decel="4.5" length="5" maxSpeed="13.9" sigma="0.5"/>
+    <route id="r0" edges="N2C C2S"/>
+    <route id="r1" edges="E2C C2W"/>
+    <route id="r2" edges="S2C C2N"/>
+    <route id="r3" edges="W2C C2E"/>
+    <flow id="flow0" type="car" route="r0" begin="0" end="600" probability="0.2"/>
+    <flow id="flow1" type="car" route="r1" begin="0" end="600" probability="0.4"/>
+    <flow id="flow2" type="car" route="r2" begin="0" end="600" probability="0.3"/>
+    <flow id="flow3" type="car" route="r3" begin="0" end="600" probability="0.1"/>
+</routes>

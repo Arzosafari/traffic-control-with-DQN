@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <node-files value="net.nod.xml"/>
+        <edge-files value="net.edg.xml"/>
+        
+    </input>
+    <output>
+        <net-file value="net.net.xml"/>
+    </output>
+</configuration>

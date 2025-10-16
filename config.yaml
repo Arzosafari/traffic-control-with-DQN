@@ -1,0 +1,19 @@
+sumo:
+  config_file: "cross.sumocfg"
+  delay: 0
+
+training:
+  num_episodes: 350  # Reduced from 500
+  max_steps_per_episode: 500  # Reduced from 1000
+  checkpoint_dir: "checkpoints/"
+  log_dir: "logs/"
+
+dqn:
+  learning_rate: 0.0001
+  gamma: 0.95
+  epsilon_start: 1.0
+  epsilon_min: 0.01
+  epsilon_decay: 0.99
+  batch_size: 32
+  memory_capacity: 10000
+  target_update_freq: 100
